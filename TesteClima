@@ -1,0 +1,16 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+package atv_enum;
+
+public class testeClima {
+    public static void main(String[] args) {
+
+        Clima hoje = Clima.CHUVOSO;
+        Clima hoje1 = Clima.ENSOLARADO;
+
+        System.out.println("Clima de hoje: " + hoje);
+        System.out.println("Clima de hoje: " + hoje1);
+    }
+}
